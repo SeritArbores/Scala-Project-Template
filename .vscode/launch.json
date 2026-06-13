@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "scala",
+            "request": "launch",
+            "name": "Build & Run HelloWorld",
+            "mainClass": "HelloWorld",
+            "buildTarget": "root",
+            "preLaunchTask": "sbt: compile",
+            "args": [],
+            "jvmOptions": [],
+            "env": {}
+        }
+    ]
+}

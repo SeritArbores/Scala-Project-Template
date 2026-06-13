@@ -2,5 +2,20 @@
 *.tasty
 *.log
 
+# sbt / Scala build output
+target/
+project/target/
+project/project/
+project/metals.sbt
+
+# IDE and build-server caches
+.bloop/
+.bsp/
+.metals/
+.scala-build/
+
+# OS/editor noise
+.DS_Store
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
